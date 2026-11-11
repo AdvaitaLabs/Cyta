@@ -1,0 +1,32 @@
+{
+  "data_root": "../data",
+  "cache_dir": "../cache/pie",
+  "runs_root": "../runs",
+  "preprocessed_dirs": [
+    "../data/preprocessed/replogle",
+    "../data/preprocessed/tahoe",
+    "../data/preprocessed/jiang",
+    "../data/preprocessed/arc_vcc_25",
+    "../data/preprocessed/orion",
+    "../data/preprocessed/local_wilcoxon",
+    "../data/preprocessed/local_cd4",
+    "../data/preprocessed/local_bulk",
+    "../data/preprocessed/extra_profiles",
+    "../data/preprocessed/extra_pooled"
+  ],
+  "source_dirs": {
+    "esm2": "../data/sources/esm2",
+    "ncbi_text": "../data/sources/ncbi_text",
+    "string_space": "../data/sources/string_space",
+    "depmap_gene_effect": "../data/sources/depmap_gene_effect",
+    "context_text": "../data/sources/context_text",
+    "perturbation_text": "../data/sources/perturbation_text",
+    "smiles": "../data/sources/smiles",
+    "l1000_tas": "../data/sources/l1000_tas",
+    "prism_secondary": "../data/sources/prism_secondary",
+    "jump_morphology": "../data/sources/jump_morphology"
+  },
+  "gene_text_dir": "../data/sources/gene_text",
+  "split_dir": "../data/splits/all",
+  "aliases_path": "../data/sources/aliases.yaml"
+}

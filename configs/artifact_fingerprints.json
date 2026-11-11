@@ -1,0 +1,12 @@
+{
+  "model_name": "Advaita_VirtualCell_Model",
+  "historical_recipe": "Advaita_V20 specialist revision",
+  "weights_included": false,
+  "sha256": {
+    "foundation.ckpt": "ef352fef792983787cec0a9b3d12b04c1deebec348898bc8015e56059b7a7835",
+    "source_amplitude.ckpt": "f31f9d5d0b858eeb7c9bba2e7d0a1cc088d0a0ab1304f4e9d0f486fa28ba8da7",
+    "contrastive_bulk.ckpt": "42047bdffb5898500bca2d517081d7dc9b9abb7f82ac1deada58a827f688bcc6",
+    "specialist_amplitude.ckpt": "e1fef944af721082135b2e82f2fb8422dc680ebd93df201f34ada73c5e2fbfa2",
+    "common_response.npz": "0a6deea0633a9c54cc16a645e4a51c976d6620088de0b00190b3d8292de582fa"
+  }
+}

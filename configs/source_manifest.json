@@ -1,0 +1,77 @@
+{
+  "datasets": {
+    "replogle": {
+      "rows": 5459,
+      "genes": 6642,
+      "contexts": 4,
+      "meta_sha256": "188bddb7df9682fa73a6621e2c8e58b7595a5409cf1ad82ed36185425633cb97"
+    },
+    "tahoe": {
+      "rows": 56827,
+      "genes": 18151,
+      "contexts": 50,
+      "meta_sha256": "acead8883b47379def87165dc246442e4432f6075bb27a62d7eb8f29dd4c8dd3"
+    },
+    "jiang": {
+      "rows": 461,
+      "genes": 22454,
+      "contexts": 30,
+      "meta_sha256": "2883ba405d4d75663b8d0b5f55d6e8b8bc731822e4528acd22da7aeffa6e8327"
+    },
+    "arc_vcc_25": {
+      "rows": 190,
+      "genes": 12286,
+      "contexts": 2,
+      "meta_sha256": "56a8f21bd13d781adc45064aa4a698b4c3e66918b5bcdb05efd5df9112fe6cf3"
+    },
+    "orion": {
+      "rows": 13284,
+      "genes": 22182,
+      "contexts": 2,
+      "meta_sha256": "16b83a176823c2e87b5ccdfb6fd2cc8283e60f860e1797acdc9d01e6aa77398c"
+    },
+    "local_wilcoxon": {
+      "rows": 11491,
+      "genes": 18255,
+      "contexts": 8,
+      "meta_sha256": "8d6b0fd7b7cb0d84a8037969d481c660cf305aa0fd775bd4c760a73e4125d070"
+    },
+    "local_cd4": {
+      "rows": 2741,
+      "genes": 10176,
+      "contexts": 3,
+      "meta_sha256": "13015a538846bd999534ddac0adbad626e4dea0a0def159efe0ed81e61c0e2cb"
+    },
+    "local_bulk": {
+      "rows": 11543,
+      "genes": 26010,
+      "contexts": 2,
+      "meta_sha256": "4e513b98d898c335d97c67c3a38e79827e800d21937f6c8e1b6e853869144454"
+    },
+    "extra_profiles": {
+      "rows": 29186,
+      "genes": 18262,
+      "contexts": 7,
+      "meta_sha256": "c7a320e2cc1b4dd2064ef3bc6b541e37dabdfa0eb8db83e03aba910c1cc95d1e"
+    },
+    "extra_pooled": {
+      "rows": 33314,
+      "genes": 18262,
+      "contexts": 3,
+      "meta_sha256": "3e7f049c04e34e66fcbc61f345fd31e9602cab44d469a9f797d08534eab9555e"
+    }
+  },
+  "source_names": [
+    "esm2",
+    "ncbi_text",
+    "string_space",
+    "depmap_gene_effect",
+    "context_text",
+    "perturbation_text",
+    "smiles",
+    "l1000_tas",
+    "prism_secondary",
+    "jump_morphology"
+  ],
+  "data_included": false
+}

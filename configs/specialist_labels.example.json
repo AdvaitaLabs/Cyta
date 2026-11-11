@@ -1,0 +1,8 @@
+{
+  "adaptation": "../data/specialist/adaptation.h5ad",
+  "reference_controls": "../data/specialist/reference_controls.h5ad",
+  "query_controls": "../data/specialist/query_controls.h5ad",
+  "target_split": "../data/specialist/target_split.csv",
+  "target_column": "target_gene",
+  "output": "../data/specialist/labels.npz"
+}

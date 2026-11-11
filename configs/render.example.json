@@ -1,0 +1,47 @@
+{
+  "targets": "../data/final/pert_counts.csv",
+  "response_basis": "../artifacts/common_response.npz",
+  "router": "../artifacts/background_router.npz",
+  "output": "../outputs/counts",
+  "render": {
+    "cells_per_target": 400,
+    "top_de_genes": 4000,
+    "amplitude_cap": 1.5,
+    "amplitude_floor": 0.01,
+    "tail_amplitude_cap": 0.25,
+    "dense_tail": 0.1,
+    "target_retention": 0.3,
+    "rank_floor": 0.15,
+    "rank_decay_genes": 300,
+    "worker_seed": 9000,
+    "repair_passes": 3,
+    "repair_max_moves": 24,
+    "repair_fraction": 0.35
+  },
+  "contexts": {
+    "D": {
+      "controls": "../data/final/context_D.h5ad",
+      "control_sets": "../artifacts/control_sets_D.npy",
+      "base_readouts": "../outputs/readouts/base/D.npz",
+      "amplitude_readouts": "../outputs/readouts/amplitude/D.npz",
+      "bulk_readouts": "../outputs/readouts/bulk/D.npz",
+      "specialist_readouts": "../outputs/readouts/specialist/D.npz"
+    },
+    "E": {
+      "controls": "../data/final/context_E.h5ad",
+      "control_sets": "../artifacts/control_sets_E.npy",
+      "base_readouts": "../outputs/readouts/base/E.npz",
+      "amplitude_readouts": "../outputs/readouts/amplitude/E.npz",
+      "bulk_readouts": "../outputs/readouts/bulk/E.npz",
+      "specialist_readouts": "../outputs/readouts/specialist/E.npz"
+    },
+    "F": {
+      "controls": "../data/final/context_F.h5ad",
+      "control_sets": "../artifacts/control_sets_F.npy",
+      "base_readouts": "../outputs/readouts/base/F.npz",
+      "amplitude_readouts": "../outputs/readouts/amplitude/F.npz",
+      "bulk_readouts": "../outputs/readouts/bulk/F.npz",
+      "specialist_readouts": "../outputs/readouts/specialist/F.npz"
+    }
+  }
+}

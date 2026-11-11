@@ -1,0 +1,11 @@
+{
+  "output": "../data/source_bulk",
+  "contexts": {
+    "k562_gwps": {
+      "counts": "../data/source_counts/k562_gwps.h5ad",
+      "target_column": "target_gene",
+      "control_label": "non-targeting",
+      "min_cells": 100
+    }
+  }
+}

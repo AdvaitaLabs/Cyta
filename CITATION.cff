@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and acknowledge PIE and the original data providers."
+title: Advaita_VirtualCell_Model
+type: software
+authors:
+  - name: Advaita Lab
+version: 0.1.0
+date-released: 2026-11-12
+url: https://github.com/yfsong00/Advaita_Lab_VirtualCell_Model
+repository-code: https://github.com/yfsong00/Advaita_Lab_VirtualCell_Model
+license: CC-BY-NC-SA-4.0

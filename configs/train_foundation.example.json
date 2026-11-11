@@ -1,0 +1,15 @@
+{
+  "assets": "assets.example.json",
+  "pie_config": "foundation_architecture.json",
+  "device": "auto",
+  "output": "../runs/foundation",
+  "training": {
+    "complete_pass": true,
+    "batch_size": 32,
+    "genes_per_row": 768,
+    "balanced_steps": 1600,
+    "tahoe_weight": 0.2,
+    "dense_lfc_weight": 0.25,
+    "validate_every": 500
+  }
+}

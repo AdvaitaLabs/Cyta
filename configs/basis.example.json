@@ -1,0 +1,8 @@
+{
+  "source_bulk": "../data/source_bulk",
+  "rank": 64,
+  "alpha": 0.5,
+  "seed": 20261030,
+  "device": "auto",
+  "output": "../artifacts/common_response.npz"
+}

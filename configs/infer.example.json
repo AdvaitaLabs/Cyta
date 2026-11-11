@@ -1,0 +1,19 @@
+{
+  "assets": "assets.example.json",
+  "device": "auto",
+  "precision": "auto",
+  "threads": 2,
+  "targets": "../data/final/pert_counts.csv",
+  "controls": {
+    "D": "../data/final/context_D.h5ad",
+    "E": "../data/final/context_E.h5ad",
+    "F": "../data/final/context_F.h5ad"
+  },
+  "checkpoints": {
+    "base": "../checkpoints/foundation.ckpt",
+    "amplitude": "../checkpoints/source_amplitude.ckpt",
+    "bulk": "../checkpoints/contrastive_bulk.ckpt",
+    "specialist": "../checkpoints/specialist_amplitude.ckpt"
+  },
+  "output": "../outputs/readouts"
+}

@@ -1,0 +1,19 @@
+{
+  "stage": "specialist",
+  "assets": "assets.example.json",
+  "checkpoint": "../checkpoints/source_amplitude.ckpt",
+  "direction_checkpoint": "../checkpoints/foundation.ckpt",
+  "source_bulk": "../data/source_bulk",
+  "near_labels": "../data/specialist/labels.npz",
+  "device": "auto",
+  "output": "../runs/specialist_amplitude",
+  "training": {
+    "steps": 600,
+    "seed": 20261101,
+    "batch_size": 4,
+    "near_batch_size": 2,
+    "genes_per_row": 2048,
+    "learning_rate": 0.00002,
+    "validate_every": 100
+  }
+}

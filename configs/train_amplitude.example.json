@@ -1,0 +1,16 @@
+{
+  "stage": "amplitude",
+  "assets": "assets.example.json",
+  "checkpoint": "../checkpoints/foundation.ckpt",
+  "device": "auto",
+  "output": "../runs/source_amplitude",
+  "training": {
+    "steps": 1200,
+    "seed": 20261029,
+    "batch_size": 4,
+    "genes_per_row": 1024,
+    "learning_rate": 0.00001,
+    "backbone_learning_rate": 0.000002,
+    "validate_every": 300
+  }
+}

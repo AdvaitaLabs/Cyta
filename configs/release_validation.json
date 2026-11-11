@@ -1,0 +1,107 @@
+{
+  "model_name": "Advaita_VirtualCell_Model",
+  "release": "0.1.0",
+  "status": "passed",
+  "full_gpu_retraining_performed": false,
+  "trained_assets_included": false,
+  "historical_count_comparisons": [
+    {
+      "context": "D",
+      "index": 0,
+      "shape": [
+        400,
+        18533
+      ],
+      "exact": true,
+      "changed_entries": 0,
+      "l1": 0,
+      "actual_sha256": "c45c1c9e8c2e1adb3ee1dfec1450f3eb0bda2aa23c275068d8a94f38e715b792",
+      "expected_sha256": "c45c1c9e8c2e1adb3ee1dfec1450f3eb0bda2aa23c275068d8a94f38e715b792"
+    },
+    {
+      "context": "E",
+      "index": 0,
+      "shape": [
+        400,
+        18533
+      ],
+      "exact": true,
+      "changed_entries": 0,
+      "l1": 0,
+      "actual_sha256": "3a6331c6a85da04b549608334aa965bf8d938222adac7ae12961eafe09abc223",
+      "expected_sha256": "3a6331c6a85da04b549608334aa965bf8d938222adac7ae12961eafe09abc223"
+    },
+    {
+      "context": "F",
+      "index": 0,
+      "shape": [
+        400,
+        18533
+      ],
+      "exact": true,
+      "changed_entries": 0,
+      "l1": 0,
+      "actual_sha256": "38b7b03bf89b63f85e45a3410036819ca2e79b5f56e56553c8d78e3aeb00c1e8",
+      "expected_sha256": "38b7b03bf89b63f85e45a3410036819ca2e79b5f56e56553c8d78e3aeb00c1e8"
+    }
+  ],
+  "upstream_source_checks": {
+    "src/pie/model/pie.py": {
+      "matches_local": true,
+      "sha256": "5a8c4d8aacbd30f2525c3b56ededbab8465d6c3c13f41cf446479c085490f9c0"
+    },
+    "src/pie/data/evidence.py": {
+      "matches_local": true,
+      "sha256": "6e919486d63841ba34064ab586afaf925044532f0bb038fe25111d2a590366cd"
+    },
+    "src/pie/data/datamodule.py": {
+      "matches_local": true,
+      "sha256": "ef9d9a68f1ccdc57248e549334ed497dd2464901360190ee70b8714cf11be15a"
+    }
+  },
+  "historical_bulk_profile_comparisons": [
+    {
+      "context": "D",
+      "targets": 300,
+      "genes": 18533,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "context": "E",
+      "targets": 300,
+      "genes": 18533,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "context": "F",
+      "targets": 300,
+      "genes": 18533,
+      "maximum_absolute_difference": 0.0
+    }
+  ],
+  "tests": {
+    "passed": 34,
+    "failed": 0,
+    "includes_torch_objectives": true,
+    "full_model_asset_inference": false,
+    "scope": "Synthetic algorithm, objective, count rendering, parallel scheduling and H5AD integrity checks",
+    "parallel_spawn_rechecked": true
+  },
+  "count_comparison_scope": "One retained 400-cell production target block in each of D, E and F; not all 900 blocks",
+  "artifacts": {
+    "source_distribution_built": true,
+    "wheel_built": true,
+    "weights_fingerprints_verified": true,
+    "installed_wheel_demo_passed": true,
+    "installed_wheel_demo_shape": [
+      96,
+      48
+    ]
+  },
+  "static_checks": {
+    "ruff_check": true,
+    "ruff_format": true,
+    "publication_scan_findings": 0,
+    "relative_document_links_checked": true
+  }
+}

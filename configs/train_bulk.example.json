@@ -1,0 +1,16 @@
+{
+  "stage": "bulk",
+  "assets": "assets.example.json",
+  "checkpoint": "../checkpoints/foundation.ckpt",
+  "source_bulk": "../data/source_bulk",
+  "device": "auto",
+  "output": "../runs/contrastive_bulk",
+  "training": {
+    "steps": 1200,
+    "seed": 20261029,
+    "batch_size": 8,
+    "genes_per_row": 1024,
+    "learning_rate": 0.00005,
+    "validate_every": 300
+  }
+}

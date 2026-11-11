@@ -1,0 +1,12 @@
+{
+  "predictions": "../outputs/local/predictions.h5ad",
+  "truth": "../data/validation/reference_and_perturbed.h5ad",
+  "targets": "../data/final/pert_counts.csv",
+  "contexts": ["D", "E", "F"],
+  "context_column": "context",
+  "target_column": "target_gene",
+  "control_label": "non-targeting",
+  "cell_cap": 400,
+  "seed": 20261029,
+  "output": "../outputs/evaluation"
+}

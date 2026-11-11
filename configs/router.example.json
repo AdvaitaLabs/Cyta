@@ -1,0 +1,11 @@
+{
+  "specialist": "MOLM13_GSE200201",
+  "expression_gate": 0.00001,
+  "references": {
+    "MOLM13_GSE200201": "../data/specialist/reference_controls.h5ad",
+    "k562_gwps": "../data/source_bulk/k562_gwps.npz",
+    "fallback_THP1_LPS": "../data/proxy_controls/context_F.h5ad",
+    "fallback_U87_vehicle": "../data/proxy_controls/context_E.h5ad"
+  },
+  "output": "../artifacts/background_router.npz"
+}
